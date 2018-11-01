@@ -1,4 +1,4 @@
-<form method="POST" action="/posts/<%= @post.id %>/edit">
+<form method="POST" action="/posts/:id">
   <input id="hidden" type="hidden" name="_method" value="PATCH">
   <label for="name">Title: </label></br>
   <input type="text" name="name" id="name" value="<%=@poss.name %>"></br>
